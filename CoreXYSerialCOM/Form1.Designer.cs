@@ -127,12 +127,12 @@ namespace CoreXYSerialCOM
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
+            this.button1.Name = "btnMain";
             this.button1.Padding = new System.Windows.Forms.Padding(10);
             this.button1.Size = new System.Drawing.Size(467, 515);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.timer1_Tick);
+            this.button1.Click += new System.EventHandler(this.btnMain_Click);
             // 
             // btnStart
             // 

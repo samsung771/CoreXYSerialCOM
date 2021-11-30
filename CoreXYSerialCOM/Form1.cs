@@ -40,7 +40,7 @@ namespace CoreXYSerialCOM
             timer1.Start();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void btnMain_Click(object sender, EventArgs e)
         {
             byte[] command = new byte[5];
 
